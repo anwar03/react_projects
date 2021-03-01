@@ -27,7 +27,7 @@ const Submenu = () => {
 
     return (
         <aside ref={container} className={`${isSubmenuOpen ? 'submenu show': 'submenu'}`}>
-            <h2>{page}</h2>
+            
             <div className={`submenu-center ${columns}`}>
                 {links.map( (link, index) => {
                     const { url, icon, label } = link;
