@@ -24,7 +24,7 @@ export default [
     amount: 1,
   },
   {
-    id: 1,
+    id: 4,
     title: 'Samsung Galaxy S8',
     price: 399.99,
     img:
